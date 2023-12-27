@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5340881B-B557-1977-283A-151DDCC729AD" name="MEMBER">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>336FAF39-62E9-6A55-8322-6EC0419736FF</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Phone_Number" id="565771C7-B9C6-49B7-6718-8BFD537F804F">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>F32CF342-CDDB-D8A9-81BD-5584DA663572</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="588F7D63-F77F-95DB-6306-4240749195DE" referredColumn="5D3803D4-F315-D81E-84E6-35BA2A352468"/>
+</associations>
+</Column>
+<Column name="Member_id" id="C15394CE-87AB-222B-C2AA-1CEC6EBDAF8D">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>C23709DF-4EF9-A4E9-47A0-E8608C364CF7</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51D0F055-2763-CA15-61CD-EC735A65ADD4" name="MEMBER_PK">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>FFE18125-93D1-9F5F-05E8-02F8C7EF4930</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="565771C7-B9C6-49B7-6718-8BFD537F804F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="233749E2-837D-0410-AC3F-CA68EC038583" name="MEMBER_PKv1">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>ADD61AC1-0AD0-AEEF-CDF2-E2245B5FC218</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C15394CE-87AB-222B-C2AA-1CEC6EBDAF8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A58305C9-0306-8095-6255-F7797A729C54" name="MEMBER_CUSTOMER_FK">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>1B736BAB-253F-A377-8F1E-4691DEB1ABD6</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="565771C7-B9C6-49B7-6718-8BFD537F804F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

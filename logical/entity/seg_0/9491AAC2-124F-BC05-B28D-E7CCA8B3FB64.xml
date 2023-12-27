@@ -1,0 +1,69 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9491AAC2-124F-BC05-B28D-E7CCA8B3FB64" name="Company">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:46:30 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<engineerTo>
+<item key="4213B908-9F50-790C-2023-9FEB99E13BBE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Company_id" id="C71F0E30-B8C9-72A7-FE8B-3EEF419C1014">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:50:26 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<engineerTo>
+<item key="4213B908-9F50-790C-2023-9FEB99E13BBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="C0C59D5F-DFE1-AD2F-2AE9-E970CF5D0BA8">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:51:53 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<engineerTo>
+<item key="4213B908-9F50-790C-2023-9FEB99E13BBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Address" id="32459E25-5084-18FB-C3B1-B059FD3747A4">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:52:34 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<engineerTo>
+<item key="4213B908-9F50-790C-2023-9FEB99E13BBE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="68EE1551-59B3-B415-6D90-96264E9100F8" name="Company PK">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:51:14 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<engineerTo>
+<item key="4213B908-9F50-790C-2023-9FEB99E13BBE" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C71F0E30-B8C9-72A7-FE8B-3EEF419C1014</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

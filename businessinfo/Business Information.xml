@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="06DAC53F-31FB-4179-8713-8893DAF1C8EA">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:45:45 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

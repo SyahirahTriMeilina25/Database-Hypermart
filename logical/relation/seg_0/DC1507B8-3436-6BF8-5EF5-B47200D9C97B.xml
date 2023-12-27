@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_7" directorySegmentName="seg_0" id="DC1507B8-3436-6BF8-5EF5-B47200D9C97B">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 10:52:45 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<engineerTo>
+<item key="4213B908-9F50-790C-2023-9FEB99E13BBE" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>9491AAC2-124F-BC05-B28D-E7CCA8B3FB64</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>08B0CC30-BEF6-30D8-6AA8-4D877FC6CCB9</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

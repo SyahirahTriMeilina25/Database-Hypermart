@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EE8D8828-A5EB-870B-4578-29452BED9851" containerWithKeyObject="83B000AF-63E6-D9D4-927D-85F2DC670285" localFKIndex="FCA76474-D5F8-5E4E-9C44-8DDBC0F50476" name="CUSTOMER_STAFF_FK">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>372FDD97-4FEC-B5F9-5251-E52DA5EB8CD6</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<referredTableLongName>STAFF</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E927C492-44C9-1028-D534-959974F36795</referredTableID>
+<keyObject>BC71A20D-EEB5-CBA5-3884-2734D00A85DD</keyObject>
+<referredKeyID>BC71A20D-EEB5-CBA5-3884-2734D00A85DD</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Staff_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="ADB2BB57-BA28-F1EC-30CA-C3DEE329017A" mainViewID="EE366706-98E2-6E54-4851-4BD43AC83509">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:45:44 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0E079227-735A-F8D5-1AE5-0AB91918F7A9" name="Restock">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<ordsAlias>relation_7</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Company_Company_id" id="BE97BF1B-DB14-78A3-FF1C-18EACBBDC3C6">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A289BE1B-777B-1C64-E720-C89563889062" referredColumn="351FB8C6-17C3-834E-C231-F1ADD44DA9DA"/>
+</associations>
+</Column>
+<Column name="ITEM_Item_id" id="50450AFF-FD30-1D2B-AD03-2AAD13BBBB91">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E0ED193F-5234-6B96-BB9E-2ECD8A0C62B2" referredColumn="002902D0-7C79-80F7-2EC3-1D38230E4C49"/>
+</associations>
+</Column>
+<Column name="Date" id="79DBF726-3787-36AB-92FC-A92FF6374C87">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:13:36 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7964BF91-8086-7D91-0512-1EED5CC2A5A4" name="Relation_7_PK">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE97BF1B-DB14-78A3-FF1C-18EACBBDC3C6"/>
+<colUsage columnID="50450AFF-FD30-1D2B-AD03-2AAD13BBBB91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECDD57E6-3E6B-3B14-09B7-471C163C3A88" name="Relation_7_Company_FK">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>DC1507B8-3436-6BF8-5EF5-B47200D9C97B</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE97BF1B-DB14-78A3-FF1C-18EACBBDC3C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5126AF80-9173-9738-6F98-B074FB93BE8F" name="Relation_7_ITEM_FK">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 11:07:55 UTC</createdTime>
+<generatorID>DC1507B8-3436-6BF8-5EF5-B47200D9C97B</generatorID>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50450AFF-FD30-1D2B-AD03-2AAD13BBBB91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

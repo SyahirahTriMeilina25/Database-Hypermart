@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="1CB62069-7AB3-4F2F-FD69-F0CE4EB0E7D5">
+<createdBy>MSI GF63</createdBy>
+<createdTime>2022-07-27 09:45:45 UTC</createdTime>
+<ownerDesignName>Hypermart_DBM</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
